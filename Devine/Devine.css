@@ -29,7 +29,7 @@ body {
 }
 
 #Bouton {
-    margin-top: 75px !important;
+    margin-top: 40px;
     background-color: white;
     color: darkblue;
 }
@@ -40,7 +40,17 @@ body {
 
 #Replay {
     background-color: white;
-    margin-left: 550px;
     color: darkblue;
+}
+
+#Historique {
+    color: rebeccapurple;
+    border: white solid;
+    border-radius: 30px;
+}
+
+#Indication {
+    color: rebeccapurple;
+    top: 30px;
 }
 
