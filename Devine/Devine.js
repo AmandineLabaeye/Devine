@@ -3,11 +3,16 @@ var NombreAleatoire = 0;
 
 var NombreEssaies = 10;
 
-function Replay () {
+function Nombre () {
 
     NombreAleatoire = (Math.random() * 100) + 1;
 
     NombreAleatoire = Math.floor(NombreAleatoire);
+}
+
+function Replay () {
+
+    Nombre();
 
     NombreEssaies = 10;
 
@@ -16,6 +21,8 @@ function Replay () {
 }
 
 document.getElementById('Bouton').addEventListener("click", function () {
+
+    Nombre();
 
     var Valeur = document.getElementById("Nombre").value;
 
