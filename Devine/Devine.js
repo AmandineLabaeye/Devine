@@ -4,9 +4,10 @@ var NombreEssaies = 10;
 
 
 
-    NombreAleatoire = (Math.random() * 100) + 1;
+NombreAleatoire = (Math.random() * 100) + 1;
 
-    NombreAleatoire = Math.floor(NombreAleatoire);
+NombreAleatoire = Math.floor(NombreAleatoire);
+
 console.log(NombreAleatoire);
 
 function Replay () {
