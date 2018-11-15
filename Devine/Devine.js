@@ -30,6 +30,7 @@ document.getElementById('Bouton').addEventListener("click", function () {
 
     document.getElementById('Historique').innerHTML += Valeur + "<br>";
 
+
     if (NombreAleatoire > Valeur) {
         document.getElementById('Indication').innerHTML = 'Retente ta chance.' + '<br>' + 'Le nombre est supérieur à ta proposition';
         Essaie ();
